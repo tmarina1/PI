@@ -1,41 +1,124 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>SUNT</title>
-  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="../imagenes/icono.ico" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"> </script>
-</head>
-<header>
-  <div class="logo_titulo_superior">
-    <div class="logo">
-      <img src="../imagenes/logoSunt.png" alt="Logo Sunt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SUNT</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/design.css" />
+    <link rel="stylesheet" type="text/css" href="../css/social.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../imagenes/icono.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/712575d4a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  </head>
+  <header>
+    <div class="logo_titulo_superior">
+      <div class="logo">
+        <img src="../imagenes/logoSunt.png" alt="Logo Sunt" />
+      </div>
     </div>
-  </div>
-  <nav>
-    <ul>
-      <li class="nav_items" id="inicio"><a href="index.html">Inicio</a></li>
-      <li class="nav_items" id="sobreNosotros"><a href="#">Sobre Nosotros</a></li>
-      <li class="nav_items" id="cuenta"><a href="#">Cuenta</a></li>
-      <li class="nav_items" id="normas"><a href="#">Normas</a></li>
-      <li class="nav_items" id="tramites"><a href="#">Trámites</a></li>
-    </ul>
-  </nav>
-  <div class="container_busqueda">
-      <input type="text" placeholder="Buscar" required  id="input_busqueda"/>
+    <nav>
+      <ul>
+        <li class="nav_items" id="inicio"><a href="index.html">Inicio</a></li>
+        <li class="nav_items" id="sobreNosotros">
+          <a href="sobrenosotros.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav_items" id="cuenta"><a href="cuenta.html">Cuenta</a></li>
+        <li class="nav_items" id="normas"><a href="#">Normas</a></li>
+        <li class="nav_items" id="tramites"><a href="#">Trámites</a></li>
+      </ul>
+    </nav>
+    <div class="container_busqueda">
+      <input type="text" placeholder="Buscar" required id="input_busqueda" />
       <div class="icono_cuadro_busqueda_superior">
         <i class="fas fa-search" icon></i>
       </div>
-  </div>
-</header>
-<body>
-  <div class="contenidoPrincipal">
-    <h1 id="titulo_inicio">Boletín informativo</h1>
-   
-  </div>
-</body>
+    </div>
+  </header>
+  <body>
+    <div class="social-bar">
+      <a
+        href="https://www.facebook.com"
+        class="icon icon-facebook"
+        target="_blank"
+      ></a>
+      <a
+        href="https://twitter.com"
+        class="icon icon-whatsapp"
+        target="_blank"
+      ></a>
+      <a
+        href="https://www.youtube.com"
+        class="icon icon-youtube"
+        target="_blank"
+      ></a>
+      <a
+        href="https://www.instagram.com"
+        class="icon icon-instagram"
+        target="_blank"
+      ></a>
+    </div>
+    <div class="contenidoPrincipal">
+      <h1 id="titulo_inicio">Boletín informativo</h1>
+      <br><br><br><br><br>
+      <h1 class = "titulo">Noticias</h1>
+    <br>
+    <section class="post-list">
+      <div class="content">
+        <article class="post">
+          <div class="post-header">
+            <div class="img1"></div>
+          </div>
+          <div class="post-body">
+            <spam>08 de agosto de 2021</spam>
+            <h2>Gobierno pide elevar hasta $150 las multas de tránsito</h2>
+            <p>El aumento de las tarifas para sancionar las infracciones de tránsito terrestre es una de las modificaciones planteadas en las propuestas de reforma a la Ley de Transporte Terrestre, Tránsito y Seguridad Vial que ingresó este martes a la Asamblea Legislativa. 
+            </p>
+            <a  class = "post-link" href "">Mas..</a> 
+          </div>
+        </article>
+        <article class="post">
+          <div class="post-header">
+            <div class="img2"></div>
+          </div>
+          <div class="post-body">
+            <spam>18 de agosto de 2021</spam>
+            <h2>En octubre regresa el pico y placa para vehículos particulares en Medellín</h2>
+            <p>A partir del viernes 1 de octubre de 2021, en Medellín se volverá a implementar el pico y placa para vehículos particulares, luego de que se suspendiera en marzo de 2020 debido a la pandemia
+            </p>
+            <a  class = "post-link" href "">Mas..</a> 
+          </div>
+        </article>
+        <article class="post">
+          <div class="post-header">
+            <div class="img3"></div>
+          </div>
+          <div class="post-body">
+            <spam>20 de agosto de 2021</spam>
+            <h2>Con intervenciones pedagógicas para fortalecer la seguridad vial, la Alcaldía de Medellín conmemora el Día Mundial del Peatón</h2>
+            <p>En el marco del Día Mundial del Peatón, la Alcaldía de Medellín realizó intervenciones pedagógicas en el Centro de la ciudad, zona donde se encuentran las vías con más incidentes de tránsito mortales.
+            </p>
+            <a  class = "post-link" href "">Mas..</a> 
+          </div>
+        </article>
+      </div>
+    </section>
+    </div>
+  </body>
 </html>
