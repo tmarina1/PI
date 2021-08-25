@@ -1,63 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../css/design.css" />
-    <link rel="stylesheet" type="text/css" href="../css/social.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <header>
-    <div class="logo_titulo_superior">
-      <div class="logo">
-        <img src="../imagenes/logoSunt.png" alt="Logo Sunt" />
-      </div>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>SUNT</title>
+  <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/styleLogin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet"/>
+  <link rel="shortcut icon" href="../imagenes/icono.ico" type="image/x-icon"/>
+  <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+</head>
+<header>
+  <div class="logo_titulo_superior">
+    <div class="logo">
+      <img src="../imagenes/logoSunt.png" alt="Logo Sunt" />
     </div>
-    <nav>
-      <ul>
-        <li class="nav_items" id="inicio"><a href="index.html">Inicio</a></li>
-        <li class="nav_items" id="sobreNosotros">
-          <a href="sobrenosotros.html">Sobre Nosotros</a>
-        </li>
-        <li class="nav_items" id="cuenta"><a href="cuenta.html">Cuenta</a></li>
-        <li class="nav_items" id="normas"><a href="#">Normas</a></li>
-        <li class="nav_items" id="tramites"><a href="#">Trámites</a></li>
-      </ul>
-    </nav>
-    <div class="container_busqueda">
-      <input type="text" placeholder="Buscar" required id="input_busqueda" />
-      <div class="icono_cuadro_busqueda_superior">
-        <i class="fas fa-search" icon></i>
-      </div>
+  </div>
+  <nav>
+    <ul>
+      <li class="nav_items" id="inicio"><a href="index.html">Inicio</a></li>
+      <li class="nav_items" id="sobreNosotros">
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+      </li>
+      <li class="nav_items" id="cuenta"><a href="cuenta.html">Cuenta</a></li>
+      <li class="nav_items" id="normas"><a href="#">Normas</a></li>
+      <li class="nav_items" id="tramites"><a href="#">Trámites</a></li>
+    </ul>
+  </nav>
+  <div class="container_busqueda">
+    <input type="text" placeholder="Buscar" required id="input_busqueda" />
+    <div class="icono_cuadro_busqueda_superior">
+      <i class="fas fa-search" icon></i>
     </div>
-  </header>
-  <body>
-    <div class="contenidoPrincipal">
-      <h2>Iniciar Sesión</h2>
-      <div class="linea" id="linea0"></div>
-      <div class="login">
+  </div>
+</header>
+<body>
+  <div class="contenidoPrincipalLogin">
+    <h2 id="titulo">Iniciar Sesión</h2>
+    <div class="linea" id="linea0"></div>
+    <div class="login">
         <form class="loginForm">
-          <div class="correo">
+            <div class="correo">
             <label for="Email" id="labelCorreo">Correo</label>
-            <input id="Email" type="email" placeholder="Ingresar el correo" />
-          </div>
-          <div class="password">
+            <input id="Email" type="email" placeholder="Ingresar el correo">
+            </div>
+            <div class="password">
             <label for="Contraseña" id="labelPassword">Contraseña</label>
-            <input
-              type="password"
-              id="Contraseña"
-              placeholder="Ingresar la contraseña"
-            />
-          </div>
+            <input type="password" id="Contraseña" placeholder="Ingresar la contraseña">
+            </div>
         </form>
-      </div>
-      <div class="linea" id="linea1"></div>
-      <p>Si no estas registrado haz <a href="#">click aqui</a></p>
     </div>
-  </body>
+    <div class="linea" id="linea1"></div>
+    <p>Si no estas registrado haz <a href="#">click aqui</a></p>
+</div>
+</body>
 </html>
