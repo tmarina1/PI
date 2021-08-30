@@ -1,115 +1,110 @@
-*{
-    font-family: 'Prompt', sans-serif ; 
-    
+* {
+  font-family: "Prompt", sans-serif;
 }
-body{
-    width: 100%;
-    height: 100%;
+body {
+  width: 100%;
+  height: 100%;
 }
-.contenidoPrincipalLogin{
-    height: 500px;
-    width: 400px;
-    position: relative;
-    top: 30vh;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    border: 1px solid rgb(18, 33, 52);
-    border-radius: 5%;
+.contenidoPrincipalLogin {
+  height: 500px;
+  width: 400px;
+  position: relative;
+  top: 30vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid rgb(18, 33, 52);
+  border-radius: 5%;
 }
-#titulo{
-    height: 40px;
-    width: 190px;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 70%;
-    right: 0;
-    margin: auto;
-    font-size: 30px;
-    
-    
+#titulo {
+  height: 40px;
+  width: 190px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 70%;
+  right: 0;
+  margin: auto;
+  font-size: 30px;
 }
-.login{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-
-
+.login {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
-.loginForm{
-    height: 150px;
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+.loginForm {
+  height: 150px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
-input{
-    border-radius: 15%;
-    height: 30px;
+input {
+  border-radius: 15%;
+  height: 30px;
 }
-#labelCorreo{
- position: relative;
- left: 33%;
+#labelCorreo {
+  position: relative;
+  left: 33%;
 }
-#labelPassword{
-    position: relative;
-    left: 25%;
+#labelPassword {
+  position: relative;
+  left: 25%;
 }
 .password {
-    width: 200px;
-    height: 50px;
+  width: 200px;
+  height: 50px;
 }
-.password >input{
-    width: 200px;
-    text-align: center;
+.password > input {
+  width: 200px;
+  text-align: center;
 }
-.correo{
-    width: 200px;
-    height: 50px;
+.correo {
+  width: 200px;
+  height: 50px;
 }
-.correo >input{
-    width: 200px;
-    text-align: center;
+.correo > input {
+  width: 200px;
+  text-align: center;
 }
-.linea{
-    width: 300px;
-    height: 2px;
-    background-color: rgb(20,79, 139);
+.linea {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(20, 79, 139);
 }
-#linea0{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 50%;
-    right: 0;
-    margin: auto;
+#linea0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 50%;
+  right: 0;
+  margin: auto;
 }
-#linea1{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+#linea1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
-p{
-    position:absolute;
-    bottom: 10%;
-    left: 15%;
+p {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
 }

@@ -5,7 +5,7 @@
     <title>SUNT</title>
     <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/styleLogin.css" />
+    <link rel="stylesheet" href="../css/styleVehiculo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
@@ -48,27 +48,49 @@
     </div>
   </header>
   <body>
-    <div class="contenidoPrincipalLogin">
-      <h2 id="titulo">Iniciar Sesión</h2>
-      <div class="linea" id="linea0"></div>
+    <div class="contenido_principal_login_vehiculo_actualizacion">
+      <h2 id="titulo_vehiculo_actualizacion">Actualización vehiculo</h2>
+      <div class="linea" id="linea_vehiculo_0"></div>
       <div class="login">
-        <form class="loginForm">
-          <div class="correo">
-            <label for="Email" id="labelCorreo">Correo</label>
-            <input id="Email" type="email" placeholder="Ingresar el correo" />
+        <form class="login_form_vehiculo_actualizacion">
+          <div class="SOAT">
+            <label for="Email" id="label_SOAT">SOAT</label>
+            <input id="Email" type="email" placeholder="Ingresar el SOAT" />
           </div>
-          <div class="password">
-            <label for="Contraseña" id="labelPassword">Contraseña</label>
+          <div class="Técnicomecánica">
+            <label for="Técnicomecánica" id="label_tecnico"
+              >Técnico mecánica</label
+            >
             <input
-              type="password"
-              id="Contraseña"
-              placeholder="Ingresar la contraseña"
+              id="Técnicomecánica"
+              type="Técnicomecánica"
+              placeholder="Ingresar la tecnico mecanica"
+            />
+          </div>
+          <div class="Prendas">
+            <label for="Prendas" id="label_prendas">Prendas</label>
+            <input
+              id="Prendas"
+              type="Prendas"
+              placeholder="Ingresar las prendas"
+            />
+          </div>
+          <div class="Historial">
+            <label for="Historial" id="label_historial">Historial</label>
+            <input
+              id="Historial"
+              type="Historial"
+              placeholder="Ingresar el historial"
             />
           </div>
         </form>
       </div>
-      <div class="linea" id="linea1"></div>
-      <p>Si no estas registrado haz <a href="#">click aqui</a></p>
+      <div class="linea" id="linea_vehiculo_actualizacion_1"></div>
+      <input
+        class="guardar_vehiculo_actualizacion"
+        type="submit"
+        value="Guardar"
+      />
     </div>
   </body>
 </html>
