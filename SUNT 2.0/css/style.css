@@ -17,6 +17,8 @@ header {
 
 nav {
   display: inline-block;
+  width: 700px;
+  text-align: center;
 }
 li > a {
   font-size: 20px;
@@ -25,10 +27,13 @@ li > a {
   text-shadow: 1px 1px 5px rgb(100, 100, 100);
 }
 ul li {
+  position: relative;
   text-decoration: none;
   display: inline-block;
   margin: 10px;
+  pointer-events: all;
 }
+
 .container_busqueda {
   position: relative;
   width: 300px;
@@ -46,7 +51,6 @@ ul li {
   color: rgb(250, 250, 250);
   font-size: 20px;
   border-radius: 50%;
-  cursor: pointer;
 }
 #input_busqueda {
   width: 120px;
@@ -117,7 +121,7 @@ body {
   bottom: 80%;
   margin: auto;
 }
-.social_bar {
+.social-bar {
   position: fixed;
   right: 0;
   top: 35%;
@@ -133,37 +137,29 @@ body {
   text-decoration: none;
   padding: 0.7rem;
   display: flex;
-  transition: all 0.5s;
-}
-
-.icon-facebook {
-  background: #2e406e;
+  transition: all.5s;
 }
 
 .icon-whatsapp {
-  background: #0fd109;
-}
-
-.icon-youtube {
-  background: #e83028;
-}
-
-.icon-instagram {
-  background: #3f60a5;
-}
-
-.icon:first-child {
+  background: #35f20a;
   border-radius: 1rem 0 0 0;
 }
 
-.icon:last-child {
+.icon-phone {
+  background: #4db236;
+}
+
+.icon-mail {
+  background: #f23c02;
   border-radius: 0 0 0 1rem;
 }
 
 .icon:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+  box-shadow: 0.5rem rgba(0, 0, 0, 0.42);
+  color: white;
+  text-decoration: none; /*para quitar subrayado*/
 }
 .post_list {
   display: flex;
@@ -175,7 +171,7 @@ body {
   bottom: 0;
   margin: auto;
   width: 100%;
-  height: 40%;
+  height: 20%;
   justify-content: space-evenly;
   color: white;
 }
@@ -208,26 +204,53 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.videos{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: 10%;
+  top: 25%;
+  justify-content: space-evenly;
+}
 
-.videos_h1 {
+.videos_h2 {
+  height: 40px;
+  width: 110px;
+  position: absolute;
+  display: inline-block;
   color: #fff;
-  margin-top: 20%;
-  margin-left: 45%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 18%;
+  margin: auto;
+  font-size: 34px;
 }
 
 .video_1 {
-  margin-left: 25%;
-  margin-top: 8%;
+  width: 560px;
+  height: 300px;
+  display: inline-block;
 }
 
 .video_2 {
-  margin-left: 25%;
-  margin-top: 5%;
+  width: 560px;
+  height: 300px;
+  display: inline-block;
 }
 
-.img_sobre_nostros_1 {
-  width: 80%;
-  height: 80%;
+.container_imagen_principal_sobre_nosotros{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 2%;
+}
+.imagen_principal_sobre_nosotros{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .text_sobre_nosotros_1 {
@@ -260,11 +283,17 @@ td {
   margin-left: 8%;
 }
 
-ol li {
+.lista_sobre_nosotros {
   color: #fff;
   margin-left: 12%;
   margin-right: 12%;
 }
+.lista_sobre_nosotros > li {
+  color: #fff;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
 
 /*Footer*/
 
@@ -289,7 +318,7 @@ footer {
   justify-content: space-evenly;
 }
 .parrafo_footer {
-  width: 1000px;
+  width: 100%;
   height: 100%;
   color: white;
 }
@@ -315,7 +344,7 @@ footer {
   font-size: 14px;
 }
 .contacto_footer {
-  width: 1000px;
+  width: 100%;
   height: 100%;
 }
 .contacto_footer > h4 {
@@ -341,7 +370,7 @@ footer {
   font-size: 14px;
 }
 .contacto_logos_footer {
-  width: 1000px;
+  width: 100%;
   width: 100%;
 }
 .contacto_logos_footer > h4 {
@@ -376,32 +405,23 @@ footer {
   top: 45%;
 }
 
-.tramites a {
-  color: #fff;
-}
+/*Tramites*/
 
-.tramite1 {
-  color: #fff;
-}
-.imgregvehiculo {
-  height: 8%;
-  width: 30%;
-}
-
-.pregvehiculo {
-  color: #fff;
-}
 
 .post_body_tramite {
   position: relative;
   top: 2%;
   display: inline-block;
 }
-
+.imagen_Tramite{
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
 .imagen_Tramite > img {
   max-height: 100%;
   min-width: 100%;
-  object-fit: cover;
   vertical-align: bottom;
   margin-left: auto;
   margin-right: auto;
@@ -409,7 +429,7 @@ footer {
 
 .post_header_tramite {
   width: 100%;
-  height: 20%;
+  height: 200px;
 }
 
 .post_list_tramites {
@@ -422,7 +442,7 @@ footer {
   bottom: 0;
   margin: auto;
   width: 100%;
-  height: 35%;
+  height: 10%;
   justify-content: space-evenly;
   color: white;
 }
@@ -431,13 +451,17 @@ footer {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: -12%;
+  top: 8%;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
   width: 100%;
-  height: 40%;
+  height: 10%;
   justify-content: space-evenly;
   color: white;
+}
+#imagen_rebelde{
+  width: 100%;
+  height: 100%;
 }
