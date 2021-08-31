@@ -55,7 +55,9 @@ body {
 }
 
 input {
+  width: 200px;
   height: 30px;
+  text-align: center;
 }
 label{
   position: relative;
@@ -69,16 +71,13 @@ label{
   width: 200px;
   height: 50px;
 }
-#Historial, #Prenda, #Tecnicomecanica, #Soat{
-  color: transparent;
-}
 .linea {
   width: 300px;
   height: 2px;
   background-color: rgb(20, 79, 139);
 }
-
-#linea_vehiculo_0 {
+#linea_vehiculo_0{
+  width: 300px;
   position: absolute;
   top: 0;
   left: 0;
@@ -86,7 +85,6 @@ label{
   right: 0;
   margin: auto;
 }
-
 #linea1_parte1_vehiculo {
   width: 80px;
   position: absolute;
@@ -131,7 +129,7 @@ p {
 /*Actualizacion*/
 #titulo_vehiculo_actualizacion {
   height: 40px;
-  width: 190px;
+  width: 315px;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -153,13 +151,23 @@ p {
   border: 1px solid rgb(18, 33, 52);
   border-radius: 4%;
 }
+.login_actualizacion_vehiculo{
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
 .login_form_vehiculo_actualizacion {
-  height: 150px;
+  height: 350px;
   width: 300px;
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  top: -130px;
+  top: 0;
   left: 0;
   bottom: 0;
   right: 0;
@@ -167,22 +175,61 @@ p {
   align-items: center;
   justify-content: center;
 }
-#linea_vehiculo_actualizacion_1 {
+#linea_vehiculo_actualizacion_0 {
   position: absolute;
-  top: 40%;
+  top: 0;
   left: 0;
+  bottom: 60%;
+  right: 0;
+  margin: auto;
+}
+#linea1_vehiculo_actualizacion_0 {
+  width: 80px;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  bottom: 0;
+  right: 50%;
+  margin: auto;
+}
+#linea1_vehiculo_actualizacion_1 {
+  width: 80px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
   bottom: 0;
   right: 0;
   margin: auto;
 }
-
 .guardar_vehiculo_actualizacion {
+  width: 110px;
+  height: 30px;
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 0;
   bottom: 0;
   right: 0;
   margin: auto;
-  width: 100px;
-  height: 40px;
+  border-radius: 10%;
+  background-color: rgb(20, 79, 139);
+  color: white;
+  border: 1px 1px inset white;
+  cursor: pointer;
+}
+
+#cuadro_flecha{
+  width: 50px;
+  height: 30px;
+  display: inline-block;
+  object-fit: cover;
+  position: relative;
+  top: 2%;
+  left: 5%;
+}
+#cuadro_flecha > img{
+  max-height: 100%;
+  min-width: 100%;
+  vertical-align: bottom;
+  margin-left: auto;
+  margin-right: auto;
 }
