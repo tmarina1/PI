@@ -7,7 +7,7 @@ body {
 }
 .contenidoPrincipalLogin {
   height: 1000px;
-  width: 600px;
+  width: 500px;
   position: relative;
   top: 30vh;
   left: 0;
@@ -17,20 +17,118 @@ body {
   border: 1px solid rgb(18, 33, 52);
   border-radius: 4%;
 }
-
-.contenido_principal_login_vehiculo_actualizacion {
-  height: 700px;
-  width: 500px;
-  position: relative;
-  top: 30vh;
+#titulo_vehiculo {
+  height: 40px;
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
   left: 0;
-  bottom: 30vh;
+  bottom: 80%;
   right: 0;
   margin: auto;
-  border: 1px solid rgb(18, 33, 52);
-  border-radius: 4%;
+  font-size: 30px;
+}
+.login {
+  height: 700px;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.login_form_vehiculo {
+  height: 600px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
+input {
+  height: 30px;
+}
+label{
+  position: relative;
+  width: 200px;
+  height: 16px;
+  display: inline-block;
+  text-align: center;
+}
+.container_input{
+  position: relative;
+  width: 200px;
+  height: 50px;
+}
+#Historial, #Prenda, #Tecnicomecanica, #Soat{
+  color: transparent;
+}
+.linea {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(20, 79, 139);
+}
+
+#linea_vehiculo_0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 70%;
+  right: 0;
+  margin: auto;
+}
+
+#linea1_parte1_vehiculo {
+  width: 80px;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  bottom: 0;
+  right: 50%;
+  margin: auto;
+}
+#linea1_parte2_vehiculo{
+  width: 80px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.guardar_vehiculo{
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 10%;
+  background-color: rgb(20, 79, 139);
+  color: white;
+  border: 1px 1px inset white;
+  cursor: pointer;
+}
+
+p {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
+
+/*Actualizacion*/
 #titulo_vehiculo_actualizacion {
   height: 40px;
   width: 190px;
@@ -43,44 +141,18 @@ body {
   margin: auto;
   font-size: 30px;
 }
-#titulo_vehiculo {
-  height: 40px;
-  width: 190px;
-  display: inline-block;
-  position: absolute;
-  top: 0;
+.contenido_principal_login_vehiculo_actualizacion {
+  height: 700px;
+  width: 500px;
+  position: relative;
+  top: 30vh;
   left: 0;
-  bottom: 70%;
+  bottom: 30vh;
   right: 0;
   margin: auto;
-  font-size: 30px;
-  margin-left: 40%;
+  border: 1px solid rgb(18, 33, 52);
+  border-radius: 4%;
 }
-.login {
-  height: 300px;
-  width: 300px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-}
-.login_form_vehiculo {
-  height: 150px;
-  width: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  top: -250px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-}
-
 .login_form_vehiculo_actualizacion {
   height: 150px;
   width: 300px;
@@ -95,207 +167,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-input {
-  border-radius: 15%;
-  height: 30px;
-}
-#labelCorreo {
-  position: relative;
-  left: 33%;
-}
-#labelPassword {
-  position: relative;
-  left: 25%;
-}
-#label_modelo {
-  position: relative;
-  left: 33%;
-}
-#label_tipo {
-  position: relative;
-  left: 35%;
-}
-#label_SOAT {
-  position: relative;
-  left: 35%;
-}
-#label_tecnico {
-  position: relative;
-  left: 20%;
-}
-#label_tiposervicio {
-  position: relative;
-  left: 20%;
-}
-#label_marca {
-  position: relative;
-  left: 35%;
-}
-#label_VIM {
-  position: relative;
-  left: 37%;
-}
-#label_prendas {
-  position: relative;
-  left: 35%;
-}
-#label-combustible {
-  position: relative;
-  left: 15%;
-}
-#label_historial {
-  position: relative;
-  left: 35%;
-}
-
-.correo {
-  width: 200px;
-  height: 50px;
-}
-.correo > input {
-  width: 200px;
-  text-align: center;
-}
-
-.password {
-  width: 200px;
-  height: 50px;
-}
-.password > input {
-  width: 200px;
-  text-align: center;
-}
-
-.modelo {
-  width: 200px;
-  height: 50px;
-}
-.modelo > input {
-  width: 200px;
-  text-align: center;
-}
-.Tipo {
-  width: 200px;
-  height: 50px;
-}
-.Tipo > input {
-  width: 200px;
-  text-align: center;
-}
-.SOAT {
-  width: 200px;
-  height: 50px;
-}
-.SOAT > input {
-  width: 200px;
-  text-align: center;
-}
-
-.Técnicomecánica {
-  width: 200px;
-  height: 50px;
-}
-.Técnicomecánica > input {
-  width: 200px;
-  text-align: center;
-}
-
-.Tipodeservicio {
-  width: 200px;
-  height: 50px;
-}
-.Tipodeservicio > input {
-  width: 200px;
-  text-align: center;
-}
-
-.Marca {
-  width: 200px;
-  height: 50px;
-}
-.Marca > input {
-  width: 200px;
-  text-align: center;
-}
-
-.VIM {
-  width: 200px;
-  height: 50px;
-}
-.VIM > input {
-  width: 200px;
-  text-align: center;
-}
-
-.Prendas {
-  width: 200px;
-  height: 50px;
-}
-.Prendas > input {
-  width: 200px;
-  text-align: center;
-}
-
-.Tipodecombustible {
-  width: 200px;
-  height: 50px;
-}
-.Tipodecombustible > input {
-  width: 200px;
-  text-align: center;
-}
-
-.Historial {
-  width: 200px;
-  height: 50px;
-}
-.Historial > input {
-  width: 200px;
-  text-align: center;
-}
-
-.linea {
-  width: 300px;
-  height: 2px;
-  background-color: rgb(20, 79, 139);
-}
-#linea0 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 50%;
-  right: 0;
-  margin: auto;
-}
-
-#linea_vehiculo_0 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 50%;
-  right: 0;
-  margin: auto;
-}
-
-#linea1 {
-  position: absolute;
-  top: 190%;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-}
-
-#linea_vehiculo_1 {
-  position: absolute;
-  top: 70%;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-}
-
 #linea_vehiculo_actualizacion_1 {
   position: absolute;
   top: 40%;
@@ -314,21 +185,4 @@ input {
   margin: auto;
   width: 100px;
   height: 40px;
-}
-
-.guardar_vehiculo {
-  position: absolute;
-  top: 85%;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 100px;
-  height: 40px;
-}
-
-p {
-  position: absolute;
-  bottom: 10%;
-  left: 15%;
 }
