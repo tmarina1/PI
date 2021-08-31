@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SUNT</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/styleRegistro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="../imagenes/icono.ico" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+  </head>
+  <header>
+    <div class="logo_titulo_superior">
+      <div class="logo">
+        <img src="../imagenes/logoSunt.png" alt="Logo Sunt" />
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li class="nav_items" id="inicio"><a href="index.html" class="a_nav_items">Inicio</a></li>
+        <li class="nav_items" id="sobreNosotros"><a href="sobrenosotros.html" class="a_nav_items">Sobre Nosotros</a></li>
+        <li class="nav_items" id="cuenta"><a href="cuenta.html" class="a_nav_items">Cuenta</a></li>
+        <li class="nav_items" id="normas"><a href="#" class="a_nav_items">Normas</a></li>
+        <li class="nav_items" id="tramites"><a href="tramites.html" class="a_nav_items">Trámites</a></li>
+      </ul>
+    </nav>
+    <div class="container_busqueda">
+      <input type="text" placeholder="Buscar" required id="input_busqueda" />
+      <div class="icono_cuadro_busqueda_superior">
+        <i class="fas fa-search" icon></i>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="contenidoPrincipalRegistroUsuario">
+      <h2 id="titulo">Registro</h2>
+      <div class="linea" id="linea0"></div>
+      <div class="login">
+        <form class="loginForm">
+          <div class="container_input" id="nombre">
+                <label for="Nombre" id="labelNombre">Nombre(s)</label>
+                <input type="text" id="Nombre" placeholder="Ingresar nombre(s)">
+          </div>
+          <div class="container_input" id="apellido">
+                <label for="Apellido" id="labelApellido">Apellido</label>
+                <input type="text" id="Apellido" placeholder="Ingresar apellido">
+          </div>
+          <div class="container_input" id="telefono">
+                <label for="Telefono" id="labelTelefono">Teléfono</label>
+                <input type="tel" id="Telefono" placeholder="Ingresar teléfono">
+          </div>
+          <div class="container_input" id="direccion">
+                <label for="Direccion" id="labelDireccion">Dirección</label>
+                <input type="text" id="Direccion" placeholder="Ingresar dirección">
+          </div>
+          <div class="container_input" id="identificacion">
+                <label for="Identificacion" id="labelIdentificacion"># Identificación</label>
+                <input type="number" id="Identificacion" placeholder="Ingresar identificación">
+          </div>
+          <div class="container_input" id="fecha_expedicion">
+                <label for="Expedicion" id="Expedicion">Fecha expedición</label>
+                <input type="date" id="Expedicion">
+          </div>
+          <div class="container_input" id="fecha_nacimiento">
+                <label for="Nacimiento" id="Nacimiento">Fecha nacimiento</label>
+                <input type="date" id="Nacimiento">
+          </div>
+          <div class="container_input" id="correo">
+                <label for="Email" id="labelCorreo">Correo</label>
+                <input id="Email" type="email" placeholder="Ingresar el correo"/>
+          </div>
+          <div class="container_input" id="password">
+                <label for="Contraseña" id="labelPassword">Contraseña</label>
+                <input type="text" id="Contraseña" placeholder="Ingresar la contraseña"/>
+          </div>
+        </form>
+      </div>
+      <div class="linea" id="linea1_parte1"></div>
+      <button type="submit" class="boton_crear_cuenta">Crear cuenta</button>
+      <div class="linea" id="linea1_parte2"></div>
+    </div>
+  </body>
+</html>

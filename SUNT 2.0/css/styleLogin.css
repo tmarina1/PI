@@ -83,11 +83,11 @@ input {
   text-align: center;
 }
 .linea {
-  width: 300px;
   height: 2px;
   background-color: rgb(20, 79, 139);
 }
 #linea0 {
+  width: 300px;
   position: absolute;
   top: 0;
   left: 0;
@@ -95,16 +95,53 @@ input {
   right: 0;
   margin: auto;
 }
-#linea1 {
+/*#linea1_parte1 {
+  width: 300px;
+  height: 2px;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(20, 79, 139);
+}*/
+#linea1_parte1 {
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  bottom: 0;
+  right: 50%;
+  margin: auto;
+}
+#linea1_parte2{
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.boton_iniciar_sesion{
+  width: 110px;
+  height: 30px;
   position: absolute;
   top: 50%;
   left: 0;
   bottom: 0;
   right: 0;
   margin: auto;
+  border-radius: 10%;
+  background-color: rgb(20, 79, 139);
+  color: white;
+  border: 1px 1px inset white;
+  cursor: pointer;
 }
 p {
   position: absolute;
   bottom: 10%;
   left: 15%;
 }
+
