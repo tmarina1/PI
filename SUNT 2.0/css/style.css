@@ -204,7 +204,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.videos{
+.videos {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -241,17 +241,17 @@ body {
 }
 /*sobre nosotros*/
 
-.container_imagen_principal_sobre_nosotros{
+.container_imagen_principal_sobre_nosotros {
   width: 100%;
   height: 600px;
   position: relative;
   top: 2%;
 }
-.imagen_principal_sobre_nosotros{
+.imagen_principal_sobre_nosotros {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .text_sobre_nosotros_1 {
@@ -294,7 +294,6 @@ td {
   margin-left: 12%;
   margin-right: 12%;
 }
-
 
 /*Footer*/
 
@@ -408,13 +407,12 @@ footer {
 
 /*Tramites*/
 
-
 .post_body_tramite {
   position: relative;
   top: 2%;
   display: inline-block;
 }
-.imagen_Tramite{
+.imagen_Tramite {
   display: inline-block;
   width: 100%;
   height: 200px;
@@ -462,7 +460,29 @@ footer {
   justify-content: space-evenly;
   color: white;
 }
-#imagen_rebelde{
+#imagen_rebelde {
   width: 100%;
   height: 100%;
+}
+
+.imagen_normas {
+  display: block;
+  margin: auto;
+}
+
+.titulo_normas {
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.leyes {
+  color: #fff;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.link_normas {
+  color: #fff;
+  margin-left: 15%;
 }
