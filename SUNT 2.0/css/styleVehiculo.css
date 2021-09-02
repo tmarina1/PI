@@ -30,17 +30,17 @@ body {
   font-size: 30px;
 }
 .login {
-  height: 700px;
+  height: 800px;
   width: 300px;
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 0;
   bottom: 0;
   right: 0;
   margin: auto;
 }
 .login_form_vehiculo {
-  height: 600px;
+  height: 750px;
   width: 300px;
   display: flex;
   flex-wrap: wrap;
@@ -108,7 +108,7 @@ label{
   width: 110px;
   height: 30px;
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 0;
   bottom: 0;
   right: 0;
@@ -118,6 +118,11 @@ label{
   color: white;
   border: 1px 1px inset white;
   cursor: pointer;
+}
+.container_boton{
+  width: 200px;
+  height: 90px;
+  position: relative;
 }
 
 p {
@@ -219,7 +224,7 @@ p {
 
 #cuadro_flecha{
   width: 50px;
-  height: 30px;
+  height: 40px;
   display: inline-block;
   object-fit: cover;
   position: relative;
